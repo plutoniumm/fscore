@@ -46,7 +46,7 @@ get_season_results <- function(season) {
        three_swaps = three_swaps / min(3, num_races))
 }
 
-seasons <- 2014:2020
+seasons <- 2024:2025
 for (season in seasons) {
   swaps <- get_season_results(season)
 
